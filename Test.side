@@ -1,0 +1,131 @@
+{
+  "id": "16f6dc7d-d20d-46f9-8d2f-21fad77a6d2d",
+  "version": "2.0",
+  "name": "Test",
+  "url": "https://www.google.ru",
+  "tests": [{
+    "id": "8680173b-c58c-4b61-b8dd-0fc57062b619",
+    "name": "Test",
+    "commands": [{
+      "id": "c9d4c437-8012-4891-88c6-206f538c8a94",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bfb015a-9bb5-42d1-aa5c-735afa540924",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1621x923",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b20c56a5-017e-41f8-adba-27ec5aa00624",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9d7191c-a7b7-4893-80e4-9bba5904833a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Byndyusoft"
+    }, {
+      "id": "08d86a55-c512-4e4f-8463-18ce3ccbc831",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7b2285cf-9bf5-4dff-ae42-ef2e7920d566",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tF2Cxc > .yuRUbf .LC20lb",
+      "targets": [
+        ["css=.tF2Cxc > .yuRUbf .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Byndyusoft')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5324",
+      "windowTimeout": 2000
+    }, {
+      "id": "6af4c740-f52b-46bd-831c-88c19a77172d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5324}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "46fb9ee1-be3b-473d-9be3-00d106c060f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn--lg",
+      "targets": [
+        ["css=.btn--lg", "css:finder"],
+        ["xpath=//section/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3fa8b6c-57f9-4b23-a867-e529f5dcbbf2",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//a[contains(.,'8 800 775-15-21')]",
+      "targets": [
+        ["linkText=8 800 775-15-21", "linkText"],
+        ["css=.popup-callback__footer-contacts > a:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'8 800 775-15-21')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'tel:88007751521')]", "xpath:href"],
+        ["xpath=//div[8]/div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'8 800 775-15-21')]", "xpath:innerText"]
+      ],
+      "value": "8 800 775-15-21"
+    }, {
+      "id": "cd1a60eb-a2d8-4cff-a04d-d504bb81b4ae",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//a[contains(.,'sales@byndyusoft.com')]",
+      "targets": [
+        ["linkText=sales@byndyusoft.com", "linkText"],
+        ["css=.popup-callback__footer-contacts > a:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'sales@byndyusoft.com')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'mailto:sales@byndyusoft.com')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'sales@byndyusoft.com')]", "xpath:innerText"]
+      ],
+      "value": "sales@byndyusoft.com"
+    }]
+  }],
+  "suites": [{
+    "id": "7e2d2ceb-70b7-456c-b28c-2baf165aa00d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["8680173b-c58c-4b61-b8dd-0fc57062b619"]
+  }],
+  "urls": ["https://www.google.ru/"],
+  "plugins": []
+}
