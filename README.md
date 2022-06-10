@@ -5,8 +5,8 @@ Practical QA test task
 
  - Установить данное расширение можно по ссылке: https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd
 
-Для запуска проекта, скачайте zip-архив проекта и распакуйте его: https://github.com/mokonamodoke/testbyndyusoft/archive/refs/heads/main.zip
+ - Для запуска проекта, скачайте zip-архив проекта и распакуйте его: https://github.com/mokonamodoke/testbyndyusoft/archive/refs/heads/main.zip
 
-Запустите расширение Selenium IDE в браузере.
+ - Запустите расширение Selenium IDE в браузере.
 
-В появившемся окне выберите "Open an existing project", затем выберите файл проекта Test.side.
+ - В появившемся окне выберите "Open an existing project", затем выберите файл проекта Test.side.
